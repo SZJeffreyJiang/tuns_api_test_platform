@@ -1,0 +1,511 @@
+{
+	"info": {
+		"_postman_id": "481dd416-6cc0-41d0-b8ca-d44ca1d25b7e",
+		"name": "腾顺保险测试接口",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "公估APP接口",
+			"item": [
+				{
+					"name": "已创建列表查询",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"searchType\":\"01\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/searchList/searchAllList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"searchList",
+								"searchAllList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "受理查勘",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"02\",\n    \"taskId\":\"202002131846365650010003\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "保存查勘信息",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"99\",\n    \"caseId\":\"202002131846362200010002\",\n    \"taskId\":\"202002131846365650010003\",\n    \"detailDTO\":{\n    \t\"caseId\":\"202002131846362200010002\",\n    \t\"taskId\":\"202002131846365650010003\",\n        \"policeConfirmFlag\": 1,\n    \t\"majorCaseFlag\": 1,\n\t      \"hasInjuryFlag\": 1,\n\t      \"surveyAddress\": \"天心阁城南大道\",\n\t      \"surveyNatureCode\": \"01\",\n\t      \"surveyNatureName\": \"查勘性质\",\n\t      \"caseTypeCode\": \"01\",\n\t      \"caseTypeName\": \"事故类型\",\n\t      \"accidentLiabilityCode\": \"01\",\n\t      \"accidentLiabilityName\": \"事故责任\",\n\t      \"riskCode\": \"01\",\n\t      \"riskName\": \"投保险种\",\n\t      \"surveyConclusion\": \"XXXXXXX...\",\n\t      \"caseRemark\": \"XXXXXX...\"\n    },\n    \"targetDTO\": {\n      \"caseId\": \"202002131846362200010002\",\n      \"taskId\": \"202002131846365650010003\",\n      \"plateNumber\": \"湘A12345\",\n      \"insuredName\": \"张三\",\n      \"insuredContact\": \"13800138000\",\n      \"driverName\": \"张三\",\n      \"driverContact\": \"13800138000\",\n      \"certificateType\": \"01\",\n      \"certificateNumber\": \"身份证\",\n      \"relationshipCode\": \"01\",\n      \"relationshipName\": \"本人\"\n    },\n    \"thirdDTOS\":[\n    \t\t{\n    \t\t\t\"caseId\":\"202002131846362200010002\",\n    \t\t\t\"taskId\":\"202002131846365650010003\",\n    \t\t\t\"plateNumber\": \"湘A12345\",\n\t\t        \"vehicleTypeCode\": \"01\",\n\t\t        \"vehicleTypeName\": \"货车\",\n\t\t        \"usageNatureCode\": \"01\",\n\t\t        \"usageNatureName\": \"家庭自用\",\n\t\t        \"vinCode\": \"xxxxx\",\n\t\t        \"engineNumber\": \"xxxxxx\"\n    \t\t},\n    \t\t{\n    \t\t\t\"caseId\":\"202002131846362200010002\",\n    \t\t\t\"taskId\":\"202002131846365650010003\",\n    \t\t\t\"plateNumber\":\"湘F54321\",\n    \t\t\t\"vehicleTypeCode\": \"01\",\n\t\t        \"vehicleTypeName\": \"SUV\",\n\t\t        \"usageNatureCode\": \"01\",\n\t\t        \"usageNatureName\": \"家庭自用\",\n\t\t        \"vinCode\": \"xxxxx\",\n\t\t        \"engineNumber\": \"xxxxxx\"\n    \t\t}\n    \t],\n    \t\"docDTOS\": [\n\t\t      {\n\t\t        \"caseId\": \"202002131846362200010002\",\n\t\t        \"taskId\": \"202002131846365650010003\",\n\t\t        \"documentTypeCode\": \"01\",\n\t\t        \"documentTypeName\": \"查勘现场照片\",\n\t\t        \"documentName\": \"车辆全车照\",\n\t\t        \"documentUrl\": \"xxxxxx\",\n\t\t        \"downloadUrl\": \"xxxxxx\"\n\t\t      }\n\t\t    ]\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/survey/saveSurvey",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"survey",
+								"saveSurvey"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查勘详情",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"caseId\":\"202002131846362200010002\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/survey/searchSurvey",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"survey",
+								"searchSurvey"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "核损提交",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"02\",\n    \"taskId\":\"202002131846365650010003\",\n    \"refusePaymentFlag\":\"1\",\n    \"finalClaimAmount\":3000.00,\n    \"finalMaintenanceAmount\":3000.00\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "结案",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"02\",\n    \"taskId\":\"202002131846365650010003\",\n    \"isPass\":\"1\",\n    \"score\":\"90\",\n    \"remark\":\"可以结案\",\n    \"closedType\":\"01\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "放弃查勘及核损",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"04\",\n    \"taskId\":\"202002131849100170010010\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "分配查勘及核损",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"02\",\n    \"taskId\":\"202002131849100170010010\",\n    \"reformPersonId\":\"13220\",\n    \"reformPersonName\":\"饼干\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查勘审核退回",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"02\",\n    \"taskId\":\"202002131849100170010010\",\n    \"isPass\":\"0\",\n    \"remark\":\"现场车身照片不全\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查勘信息提交",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"caseId\":\"202002131849099820010009\",\n    \"taskId\":\"202002131849100170010010\",\n    \"detailDTO\":{\n    \t\"caseId\":\"202002131849099820010009\",\n    \t\"taskId\":\"202002131849100170010010\",\n    \t\"detailId\":\"202002141121576710110037\",\n        \"policeConfirmFlag\": 1,\n    \t\"majorCaseFlag\": 1,\n\t      \"hasInjuryFlag\": 1,\n\t      \"surveyAddress\": \"天心阁城南大道\",\n\t      \"surveyNatureCode\": \"01\",\n\t      \"surveyNatureName\": \"查勘性质\",\n\t      \"caseTypeCode\": \"01\",\n\t      \"caseTypeName\": \"事故类型\",\n\t      \"accidentLiabilityCode\": \"01\",\n\t      \"accidentLiabilityName\": \"事故责任\",\n\t      \"riskCode\": \"01\",\n\t      \"riskName\": \"投保险种\",\n\t      \"surveyConclusion\": \"XXXXXXX...\",\n\t      \"caseRemark\": \"XXXXXX...\"\n    },\n    \"targetDTO\": {\n      \"caseId\": \"202002131849099820010009\",\n      \"taskId\": \"202002131849100170010010\",\n      \"targetId\":\"202002141058312840110016\",\n      \"plateNumber\": \"湘A12345\",\n      \"insuredName\": \"张三\",\n      \"insuredContact\": \"13800138000\",\n      \"driverName\": \"张三\",\n      \"driverContact\": \"13800138000\",\n      \"certificateType\": \"01\",\n      \"certificateNumber\": \"身份证\",\n      \"relationshipCode\": \"01\",\n      \"relationshipName\": \"本人\"\n    },\n    \"thirdDTOS\":[\n    \t\t{\n    \t\t\t\"caseId\":\"202002131849099820010009\",\n    \t\t\t\"taskId\":\"202002131849100170010010\",\n    \t\t\t\"thirdId\":\"202002141058314550110018\",\n    \t\t\t\"plateNumber\": \"湘A12345\",\n\t\t        \"vehicleTypeCode\": \"01\",\n\t\t        \"vehicleTypeName\": \"货车\",\n\t\t        \"usageNatureCode\": \"01\",\n\t\t        \"usageNatureName\": \"家庭自用\",\n\t\t        \"vinCode\": \"xxxxx\",\n\t\t        \"engineNumber\": \"xxxxxx\"\n    \t\t},\n    \t\t{\n    \t\t\t\"caseId\":\"202002131849099820010009\",\n    \t\t\t\"taskId\":\"202002131849100170010010\",\n    \t\t\t\"thirdId\":\"202002141058314920110019\",\n    \t\t\t\"plateNumber\":\"湘F54321\",\n    \t\t\t\"vehicleTypeCode\": \"01\",\n\t\t        \"vehicleTypeName\": \"SUV\",\n\t\t        \"usageNatureCode\": \"01\",\n\t\t        \"usageNatureName\": \"家庭自用\",\n\t\t        \"vinCode\": \"xxxxx\",\n\t\t        \"engineNumber\": \"xxxxxx\"\n    \t\t}\n    \t],\n    \t\"docDTOS\": [\n\t\t      {\n\t\t        \"caseId\": \"202002131849099820010009\",\n\t\t        \"taskId\": \"202002131849100170010010\",\n\t\t        \"documentId\":\"202002141058315830110020\",\n\t\t        \"documentTypeCode\": \"01\",\n\t\t        \"documentTypeName\": \"查勘现场照片\",\n\t\t        \"documentName\": \"车辆全车照\",\n\t\t        \"documentUrl\": \"xxxxxx\",\n\t\t        \"downloadUrl\": \"xxxxxx\"\n\t\t      }\n\t\t    ]\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/survey/submitSurvey",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"survey",
+								"submitSurvey"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查勘审核通过",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"02\",\n    \"taskId\":\"202002131849100170010010\",\n    \"isPass\":\"1\",\n    \"score\":\"99\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "核损改派",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"05\",\n    \"taskId\":\"202002131849100170010010\",\n    \"reformPersonId\":\"266\",\n    \"reformPersonName\":\"王丽\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "核损留言处理中",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"02\",\n    \"taskId\":\"202002131849100170010010\",\n    \"isSendSurvey\":\"0\",\n    \"message\":\"核损处理中。。。\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "核损推送查勘员",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"02\",\n    \"taskId\":\"202002131849100170010010\",\n    \"isSendSurvey\":\"1\",\n    \"message\":\"核损推送查勘员。。。\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "结案退回",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"head\": {\n    \"version\":\"2.0.7\",\n    \"requestId\":\"a587eda6b6e448e09880b061106d73a4\",\n    \"system\":\"iOS\",\n    \"deviceId\": \"1517bfd3f7a836b11f6\",\n    \"tokenId\": \"8fd4e4a87053f0a6b8993a09bf1aca28\"\n  },\n  \"body\": {\n    \"optType\":\"02\",\n    \"taskId\":\"202002131849100170010010\",\n    \"isPass\":\"0\",\n    \"remark\":\"不可以结案\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8012/ins/app/event/eventHandle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"ins",
+								"app",
+								"event",
+								"eventHandle"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,1303 @@
+十二月 19, 2019 2:59:21 下午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: test_slave
+十二月 19, 2019 2:59:21 下午 hudson.remoting.jnlp.Main$CuiListener <init>
+信息: Jenkins agent is running in headless mode.
+十二月 19, 2019 2:59:21 下午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 3.21.1
+十二月 19, 2019 2:59:21 下午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\TS_apiTest\remoting as a remoting work directory
+十二月 19, 2019 2:59:21 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十二月 19, 2019 2:59:21 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十二月 19, 2019 2:59:21 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 19, 2019 2:59:21 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十二月 19, 2019 2:59:21 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 19, 2019 2:59:21 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十二月 19, 2019 2:59:41 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 19, 2019 2:59:42 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+十二月 23, 2019 8:46:46 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+十二月 23, 2019 8:46:59 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十二月 23, 2019 8:46:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十二月 23, 2019 8:47:00 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 23, 2019 8:47:00 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十二月 23, 2019 8:47:00 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 23, 2019 8:47:00 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十二月 23, 2019 8:47:23 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 23, 2019 8:47:23 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+十二月 23, 2019 9:08:24 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+十二月 23, 2019 9:08:39 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:08:54 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:09:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:09:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:09:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:09:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:10:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:10:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:10:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:10:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:11:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:11:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:11:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:11:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:12:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:12:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:12:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:12:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:13:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:13:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:13:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:13:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:14:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:14:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:14:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:14:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:15:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:15:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:15:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:15:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:16:15 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:16:30 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:17:39 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:17:54 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:18:09 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:18:24 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:18:39 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:18:54 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:19:09 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:19:24 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:19:39 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:19:54 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:20:09 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:20:24 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:20:39 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:20:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:21:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:21:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:21:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:21:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:22:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:22:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:22:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:22:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:23:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:23:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:23:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:23:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:24:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:24:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:24:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:24:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:25:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:25:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:25:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:25:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:26:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:26:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:26:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:26:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:27:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:27:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:27:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:27:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:28:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:28:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:28:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:28:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:29:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:29:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:29:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:29:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:30:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:30:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:30:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:30:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:31:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:31:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:31:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:31:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:32:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:32:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:32:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:32:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:33:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:33:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:33:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:33:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:34:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:34:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:34:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:34:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:35:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:35:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:35:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:35:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:36:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:36:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:36:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:36:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:37:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:37:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:37:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:37:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:38:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:38:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:38:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:38:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:39:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:39:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:39:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:39:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:40:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:40:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:40:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:40:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:41:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:41:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:41:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:41:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:42:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:42:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:42:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:42:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:43:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:43:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:43:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:43:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:44:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:44:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:44:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:44:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:45:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:45:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:45:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:45:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:46:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:46:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:46:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:46:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:47:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:47:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:47:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:47:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:48:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:48:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:48:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:48:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:49:14 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:49:29 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:49:44 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:49:59 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:50:15 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:50:30 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:50:45 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:51:00 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:51:15 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:51:30 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:51:45 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:52:00 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:52:15 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:52:30 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:52:45 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:53:00 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:53:15 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:53:30 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:53:45 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:54:00 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:54:15 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:54:30 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:54:45 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:55:00 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:55:15 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:55:30 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:55:45 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:56:00 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:56:15 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:56:30 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:56:45 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:57:00 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:57:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:57:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:57:46 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:58:01 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:58:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:58:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:58:46 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:59:01 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:59:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:59:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 9:59:46 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:00:01 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:00:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:00:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:00:46 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:01:01 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:01:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:01:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:01:46 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:02:01 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:02:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:02:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:02:46 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:03:01 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:03:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:03:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:03:46 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:04:01 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:04:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:04:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:04:46 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:05:01 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:05:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:05:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:05:46 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:06:01 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:06:16 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:06:31 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:06:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:07:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:07:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:07:32 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:07:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:08:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:08:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:08:32 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:08:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:09:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:09:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:09:32 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:09:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:10:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:10:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:10:32 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:10:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:11:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:11:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:11:32 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:11:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:12:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:12:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:12:32 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:12:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:13:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:13:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:13:32 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:13:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:14:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:14:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:14:32 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:14:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:15:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:15:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:15:32 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:15:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:16:02 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:16:17 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:16:33 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:16:48 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:17:03 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:17:18 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:17:33 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:17:48 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:18:03 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:18:18 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:18:33 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:18:48 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:19:03 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:19:18 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:19:33 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:19:48 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:20:03 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:20:18 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:20:33 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:20:48 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:21:03 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:21:18 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:21:33 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:21:48 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:22:03 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:22:18 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:22:33 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:22:48 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:23:03 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:23:18 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:23:33 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:23:48 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:24:03 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:24:18 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:24:33 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:24:48 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:25:03 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:25:18 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:25:34 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:25:49 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:26:04 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:26:19 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:26:34 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:26:49 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:27:04 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:27:19 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:27:34 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:27:49 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:28:04 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:28:19 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:28:34 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:28:49 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:29:04 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:29:19 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:29:34 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:29:49 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:30:04 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:30:19 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:30:34 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:30:49 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:31:04 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:31:19 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:31:34 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:31:49 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:32:04 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:32:19 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:32:35 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:32:50 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:33:05 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:33:20 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:33:35 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:33:50 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:34:05 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:34:20 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:34:35 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:34:50 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:35:05 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:35:20 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:35:35 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:35:50 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:36:05 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:36:20 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:36:35 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:36:50 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:37:05 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:37:20 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:37:35 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:37:50 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:38:05 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:38:20 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:38:35 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:38:50 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:39:05 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:39:20 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:39:35 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:39:50 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:40:06 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:40:21 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:40:36 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:40:51 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:41:06 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:41:21 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:41:36 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:41:51 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:42:06 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:42:21 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:42:36 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:42:51 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:43:06 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:43:21 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:43:36 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:43:51 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:44:06 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:44:21 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:44:36 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:44:51 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:45:06 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:45:21 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:45:36 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:45:51 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:46:06 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:46:21 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:46:36 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:46:51 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:47:06 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:47:21 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:47:36 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:47:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:48:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:48:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:48:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:48:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:49:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:49:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:49:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:49:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:50:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:50:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:50:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:50:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:51:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:51:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:51:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:51:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:52:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:52:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:52:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:52:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:53:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:53:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:53:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:53:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:54:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:54:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:54:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:54:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:55:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:55:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:55:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:55:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:56:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:56:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:56:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:56:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:57:07 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:57:22 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:57:37 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:57:52 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:58:08 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:58:23 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:58:38 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:58:53 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:59:08 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:59:23 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:59:38 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 10:59:53 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:00:08 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:00:23 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:00:38 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:00:53 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:01:08 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:01:23 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:01:38 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:01:53 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:02:08 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:02:23 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:02:38 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:02:53 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:03:08 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:03:23 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:03:38 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:03:53 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:04:08 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:04:23 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:04:38 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:04:53 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:05:08 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:05:23 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:05:38 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:05:53 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:06:09 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:06:24 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:06:39 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:06:54 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:07:09 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:07:24 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:07:39 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:07:54 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:08:09 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:08:24 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:08:39 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:08:54 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:09:09 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:09:24 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:09:39 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:09:54 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:10:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:10:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:10:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:10:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:11:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:11:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:11:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:11:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:12:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:12:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:12:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:12:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:13:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:13:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:13:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:13:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:14:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:14:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:14:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:14:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:15:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:15:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:15:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:15:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:16:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:16:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:16:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:16:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:17:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:17:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:17:40 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:17:55 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:18:10 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:18:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:18:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:18:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:19:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:19:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:19:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:19:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:20:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:20:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:20:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:20:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:21:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:21:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:21:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:21:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:22:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:22:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:22:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:22:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:23:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:23:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:23:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:23:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:24:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:24:26 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:24:41 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:24:56 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:25:11 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:25:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:25:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:25:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:26:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:26:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:26:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:26:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:27:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:27:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:27:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:27:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:28:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:28:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:28:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:28:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:29:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:29:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:29:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:29:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:30:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:30:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:30:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:30:57 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:31:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:31:27 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:31:42 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:31:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:32:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:32:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:32:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:32:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:33:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:33:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:33:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:33:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:34:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:34:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:34:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:34:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:35:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:35:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:35:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:35:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:36:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:36:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:36:43 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:36:58 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:37:13 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:37:28 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+十二月 23, 2019 11:37:38 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十二月 23, 2019 11:37:38 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十二月 23, 2019 11:37:38 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 23, 2019 11:37:38 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十二月 23, 2019 11:37:38 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 23, 2019 11:37:38 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十二月 23, 2019 11:37:58 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 23, 2019 11:37:58 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+十二月 23, 2019 1:37:02 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+十二月 23, 2019 1:37:12 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十二月 23, 2019 1:37:12 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十二月 23, 2019 1:37:12 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 23, 2019 1:37:12 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十二月 23, 2019 1:37:12 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 23, 2019 1:37:12 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十二月 23, 2019 1:37:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Protocol JNLP4-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Connection closed before acknowledgement sent
+	at org.jenkinsci.remoting.util.SettableFuture.get(SettableFuture.java:223)
+	at hudson.remoting.Engine.innerRun(Engine.java:609)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Connection closed before acknowledgement sent
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer.onRecvClosed(AckFilterLayer.java:280)
+	at org.jenkinsci.remoting.protocol.FilterLayer.abort(FilterLayer.java:164)
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer.access$000(AckFilterLayer.java:43)
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer$1.run(AckFilterLayer.java:176)
+	at org.jenkinsci.remoting.protocol.IOHub$DelayedRunnable.run(IOHub.java:964)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at hudson.remoting.Engine$1$$Lambda$3/855790021.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+十二月 23, 2019 1:37:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 23, 2019 1:37:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP4-plaintext not supported, skipping
+十二月 23, 2019 1:37:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP3-connect not supported, skipping
+十二月 23, 2019 1:37:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP2-connect not supported, skipping
+十二月 23, 2019 1:37:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP-connect not supported, skipping
+十二月 23, 2019 1:37:32 下午 hudson.remoting.jnlp.Main$CuiListener error
+严重: The server rejected the connection: None of the protocols were accepted
+java.lang.Exception: The server rejected the connection: None of the protocols were accepted
+	at hudson.remoting.Engine.onConnectionRejected(Engine.java:670)
+	at hudson.remoting.Engine.innerRun(Engine.java:634)
+	at hudson.remoting.Engine.run(Engine.java:469)
+

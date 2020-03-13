@@ -1,0 +1,1 @@
+java -jar agent.jar -jnlpUrl http://192.168.2.20:8180/computer/test_save_76/slave-agent.jnlp -secret cdf06ccd5096bc79ef9cd7c8d36af518be169bb606dca430cbe78e626b253a24 -workDir "D:\TS_apiTest"

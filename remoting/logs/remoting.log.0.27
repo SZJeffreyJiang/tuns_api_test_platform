@@ -1,0 +1,433 @@
+一月 16, 2020 2:24:55 下午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: test_save_76
+一月 16, 2020 2:24:55 下午 hudson.remoting.jnlp.Main$CuiListener <init>
+信息: Jenkins agent is running in headless mode.
+一月 16, 2020 2:24:55 下午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 3.21.1
+一月 16, 2020 2:24:55 下午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\TS_apiTest\remoting as a remoting work directory
+一月 16, 2020 2:24:55 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+一月 16, 2020 2:24:55 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+一月 16, 2020 2:24:55 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+一月 16, 2020 2:24:55 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+一月 16, 2020 2:24:55 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+一月 16, 2020 2:24:55 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+一月 16, 2020 2:25:06 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+一月 16, 2020 2:25:07 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+一月 16, 2020 2:25:26 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+一月 16, 2020 2:25:26 下午 hudson.remoting.Request$2 run
+信息: Failed to send back a reply to the request hudson.remoting.Request$2@283faad8: hudson.remoting.ChannelClosedException: Channel "hudson.remoting.Channel@13f708ce:JNLP4-connect connection to 192.168.2.20/192.168.2.20:43164": channel is already closed
+一月 16, 2020 2:25:41 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+一月 16, 2020 2:25:56 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+一月 16, 2020 2:26:11 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+一月 16, 2020 2:26:21 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 2:26:31 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 2:26:41 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 2:26:51 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+一月 16, 2020 2:26:51 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+一月 16, 2020 2:26:51 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+一月 16, 2020 2:26:51 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+一月 16, 2020 2:26:51 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+一月 16, 2020 2:26:51 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+一月 16, 2020 2:27:01 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+一月 16, 2020 2:27:01 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+一月 16, 2020 4:08:37 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+一月 16, 2020 4:08:47 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:08:57 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:09:07 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:09:17 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:09:27 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:09:38 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:09:48 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:09:58 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:10:08 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:10:18 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:10:28 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+
+一月 16, 2020 4:10:38 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+信息: Failed to connect to the master. Will try again
+java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.waitForReady(JnlpAgentEndpointResolver.java:346)
+	at hudson.remoting.Engine.innerRun(Engine.java:660)
+	at hudson.remoting.Engine.run(Engine.java:469)
+

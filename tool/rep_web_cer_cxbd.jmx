@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="API自动检测" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">true</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="url" elementType="Argument">
+            <stringProp name="Argument.name">url</stringProp>
+            <stringProp name="Argument.value">47.106.74.46</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="port" elementType="Argument">
+            <stringProp name="Argument.name">port</stringProp>
+            <stringProp name="Argument.value">8011</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="life_url" elementType="Argument">
+            <stringProp name="Argument.name">life_url</stringProp>
+            <stringProp name="Argument.value">ttc.chinalife-p.com.cn</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="fn" elementType="Argument">
+            <stringProp name="Argument.name">fn</stringProp>
+            <stringProp name="Argument.value">${__RandomString(1,赵钱孙李周吴郑王冯程楚魏蒋沈韩杨刘邓胡宋章任袁,fn)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="sn" elementType="Argument">
+            <stringProp name="Argument.name">sn</stringProp>
+            <stringProp name="Argument.value">${__RandomString(2,美花丽勇玲洁乐顺刚海杰浩文洋华琦萍星俊伟磊思,sn)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="vi_no" elementType="Argument">
+            <stringProp name="Argument.name">vi_no</stringProp>
+            <stringProp name="Argument.value">${__RandomString(5,1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ,vi_no)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="fn1" elementType="Argument">
+            <stringProp name="Argument.name">fn1</stringProp>
+            <stringProp name="Argument.value">${__RandomString(1,赵钱孙李周吴郑王冯程楚魏蒋沈韩杨刘邓胡宋章任袁,fn)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="sn1" elementType="Argument">
+            <stringProp name="Argument.name">sn1</stringProp>
+            <stringProp name="Argument.value">${__RandomString(2,美花丽勇玲洁乐顺刚海杰浩文洋华琦萍星俊伟磊思,sn)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="fn2" elementType="Argument">
+            <stringProp name="Argument.name">fn2</stringProp>
+            <stringProp name="Argument.value">${__RandomString(1,赵钱孙李周吴郑王冯程楚魏蒋沈韩杨刘邓胡宋章任袁,fn)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="sn2" elementType="Argument">
+            <stringProp name="Argument.name">sn2</stringProp>
+            <stringProp name="Argument.value">${__RandomString(2,美花丽勇玲洁乐顺刚海杰浩文洋华琦萍星俊伟磊思,sn)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="fn3" elementType="Argument">
+            <stringProp name="Argument.name">fn3</stringProp>
+            <stringProp name="Argument.value">${__RandomString(1,赵钱孙李周吴郑王冯程楚魏蒋沈韩杨刘邓胡宋章任袁,fn)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="sn3" elementType="Argument">
+            <stringProp name="Argument.name">sn3</stringProp>
+            <stringProp name="Argument.value">${__RandomString(2,美花丽勇玲洁乐顺刚海杰浩文洋华琦萍星俊伟磊思,sn)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath">D:\apache-jmeter-4.0\lib\postgresql-42.2.8.jar</stringProp>
+    </TestPlan>
+    <hashTree>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Host</stringProp>
+            <stringProp name="Header.value">47.106.74.46:8011</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Content-Type</stringProp>
+            <stringProp name="Header.value">application/json</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Accept</stringProp>
+            <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">User-Agent</stringProp>
+            <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3941.4 Safari/537.36</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Accept-Language</stringProp>
+            <stringProp name="Header.value">zh-CN,zh;q=0.9</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Content-Length</stringProp>
+            <stringProp name="Header.value">71</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Accept-Encoding</stringProp>
+            <stringProp name="Header.value">gzip, deflate</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Connection</stringProp>
+            <stringProp name="Header.value">keep-alive</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Origin</stringProp>
+            <stringProp name="Header.value">http://192.168.2.20:8090</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Referer</stringProp>
+            <stringProp name="Header.value">http://47.106.74.46:8011:8090/tuns/login</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="messageCd断言" enabled="true">
+        <stringProp name="JSON_PATH">$.messageCd</stringProp>
+        <stringProp name="EXPECTED_VALUE">0000</stringProp>
+        <boolProp name="JSONVALIDATION">true</boolProp>
+        <boolProp name="EXPECT_NULL">false</boolProp>
+        <boolProp name="INVERT">false</boolProp>
+        <boolProp name="ISREGEX">true</boolProp>
+      </JSONPathAssertion>
+      <hashTree/>
+      <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="固定定时器" enabled="false">
+        <stringProp name="ConstantTimer.delay">1000</stringProp>
+      </ConstantTimer>
+      <hashTree/>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="察看结果树" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>true</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>true</responseData>
+            <samplerData>true</samplerData>
+            <xml>true</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>true</responseHeaders>
+            <requestHeaders>true</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <fileName>true</fileName>
+            <hostname>true</hostname>
+            <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="首页" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="循环控制器" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="登录" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;loginId&quot;:&quot;15914116527&quot;,&quot;password&quot;:&quot;59082aacfd2ee6391fa53ec7646b975b&quot;}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${url}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+          <stringProp name="HTTPSampler.path">/ins/web/cmm/login</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="tokenId提取" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">tokenId</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.data.tokenId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell 后置处理程序" enabled="true">
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="script">${__setProperty(p_tokenId,${tokenId},)}</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="车险保单录入" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="循环控制器" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="天安财险" enabled="true">
+          <stringProp name="IfController.condition">&quot;${__P(companyName)}&quot;==&quot;天安财险&quot;</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+        </IfController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/ins/web/auto/input" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;pathval&quot;:&quot;/proposal_form&quot;,&quot;taskId&quot;:null,&quot;policyId&quot;:&quot;&quot;,&quot;policyBatchId&quot;:&quot;&quot;,&quot;payTime&quot;:&quot;2019-12-09 09:52:38&quot;,&quot;insuredTime&quot;:&quot;2019-12-09 09:52:36&quot;,&quot;companyName&quot;:&quot;天安财险&quot;,&quot;companyId&quot;:&quot;1001&quot;,&quot;channelId&quot;:&quot;1001001&quot;,&quot;channelName&quot;:&quot;天安财险湖南分公司&quot;,&quot;recordType&quot;:&quot;3&quot;,&quot;thisRenewal&quot;:&quot;0&quot;,&quot;insuredType&quot;:&quot;1&quot;,&quot;salesmanId&quot;:${__P(userId)},&quot;departCode&quot;:&quot;${__P(departCode)}&quot;,&quot;phoneNumber&quot;:&quot;15914116527&quot;,&quot;idNumber&quot;:&quot;430302198605263053&quot;,&quot;newCarMark&quot;:0,&quot;ownershipNature&quot;:&quot;1&quot;,&quot;operationNature&quot;:&quot;0&quot;,&quot;usingNature&quot;:&quot;J001&quot;,&quot;carOwner&quot;:&quot;${fn}${sn}&quot;,&quot;ownerIdentifyType&quot;:&quot;05&quot;,&quot;ownerIdentify&quot;:&quot;162637737&quot;,&quot;plateNumber&quot;:&quot;湘A${vi_no}&quot;,&quot;frameNumber&quot;:&quot;88888888899999999&quot;,&quot;engineNumber&quot;:&quot;9999999999888888&quot;,&quot;modelName&quot;:&quot;FGHD&quot;,&quot;regDate&quot;:&quot;2019-12-08&quot;,&quot;useYears&quot;:0,&quot;certDate&quot;:&quot;2019-12-08&quot;,&quot;transferMark&quot;:&quot;0&quot;,&quot;transferDate&quot;:&quot;&quot;,&quot;seatCount&quot;:&quot;5&quot;,&quot;carTonnage&quot;:1,&quot;wholeWeight&quot;:&quot;1000&quot;,&quot;exhaustScale&quot;:&quot;1600.00&quot;,&quot;fuelType&quot;:&quot;1&quot;,&quot;purchasePrice&quot;:&quot;&quot;,&quot;actualPrice&quot;:1000000,&quot;loanCarMark&quot;:0,&quot;totalRecordScore&quot;:&quot;&quot;,&quot;provinceNumber&quot;:&quot;430000&quot;,&quot;provinceName&quot;:&quot;湖南省&quot;,&quot;cityNumber&quot;:&quot;430100&quot;,&quot;cityName&quot;:&quot;长沙市&quot;,&quot;specialAgreement&quot;:&quot;&quot;,&quot;note&quot;:&quot;&quot;,&quot;province&quot;:&quot;430000&quot;,&quot;city&quot;:&quot;430100&quot;,&quot;compulsoryIns&quot;:{&quot;policyId&quot;:0,&quot;insBegin&quot;:&quot;2019-12-09 09:53:33&quot;,&quot;insEnd&quot;:&quot;2020-12-08 23:59:59&quot;,&quot;policyNumber&quot;:&quot;${__RandomString(32,0123456789,)}&quot;,&quot;insuredPremium&quot;:20000,&quot;attachPremium&quot;:0,&quot;carTaxType&quot;:&quot;3&quot;,&quot;insAmount&quot;:0,&quot;documentNumber&quot;:&quot;&quot;,&quot;invoiceNumber&quot;:&quot;&quot;,&quot;ciMarkNumber&quot;:&quot;&quot;,&quot;recordScore&quot;:0,&quot;lastClaimCount&quot;:-3,&quot;discount&quot;:0.7,&quot;tax&quot;:113.21,&quot;standardPremium&quot;:2857.14,&quot;netPremium&quot;:1886.79,&quot;taxRate&quot;:0.06,&quot;commRate&quot;:&quot;&quot;,&quot;isIncludeTax&quot;:&quot;&quot;,&quot;kindList&quot;:[{&quot;kindCode&quot;:&quot;BZ&quot;,&quot;kindName&quot;:&quot;交强险&quot;,&quot;quantity&quot;:0,&quot;unitAmount&quot;:0,&quot;amount&quot;:0,&quot;premium&quot;:&quot;2000.00&quot;,&quot;discount&quot;:0.7,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;0&quot;,&quot;businessMark&quot;:&quot;0&quot;,&quot;orderNo&quot;:0,&quot;valueType&quot;:&quot;&quot;,&quot;buyAddl&quot;:&quot;&quot;},{&quot;kindCode&quot;:&quot;BT&quot;,&quot;kindName&quot;:&quot;车船税&quot;,&quot;quantity&quot;:0,&quot;unitAmount&quot;:0,&quot;amount&quot;:0,&quot;premium&quot;:&quot;2000.00&quot;,&quot;discount&quot;:0.7,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;0&quot;,&quot;businessMark&quot;:&quot;0&quot;,&quot;orderNo&quot;:0,&quot;valueType&quot;:&quot;&quot;,&quot;buyAddl&quot;:&quot;&quot;}]},&quot;businessIns&quot;:{&quot;policyId&quot;:0,&quot;insBegin&quot;:&quot;2019-12-09 09:53:36&quot;,&quot;insEnd&quot;:&quot;2020-12-08 23:59:59&quot;,&quot;policyNumber&quot;:&quot;${__RandomString(32,0123456789,)}&quot;,&quot;insuredPremium&quot;:80000,&quot;insAmount&quot;:0,&quot;documentNumber&quot;:&quot;&quot;,&quot;invoiceNumber&quot;:&quot;&quot;,&quot;ciMarkNumber&quot;:&quot;&quot;,&quot;recordScore&quot;:0,&quot;lastClaimCount&quot;:-3,&quot;discount&quot;:0.3825,&quot;tax&quot;:452.83,&quot;standardPremium&quot;:20915.03,&quot;netPremium&quot;:7547.17,&quot;taxRate&quot;:0.06,&quot;commRate&quot;:&quot;&quot;,&quot;isIncludeTax&quot;:&quot;&quot;,&quot;kindList&quot;:[{&quot;kindCode&quot;:&quot;B&quot;,&quot;kindName&quot;:&quot;机动车第三者责任保险&quot;,&quot;unitAmount&quot;:0,&quot;premium&quot;:30000,&quot;discount&quot;:0.3825,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;2&quot;,&quot;businessMark&quot;:&quot;1&quot;,&quot;orderNo&quot;:0,&quot;buyAddl&quot;:&quot;0&quot;,&quot;quantity&quot;:0,&quot;amount&quot;:1000000},{&quot;kindCode&quot;:&quot;A&quot;,&quot;kindName&quot;:&quot;机动车损失保险&quot;,&quot;unitAmount&quot;:0,&quot;premium&quot;:50000,&quot;discount&quot;:0.3825,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;2&quot;,&quot;businessMark&quot;:&quot;1&quot;,&quot;orderNo&quot;:0,&quot;buyAddl&quot;:&quot;0&quot;,&quot;quantity&quot;:0,&quot;amount&quot;:1000000}]},&quot;personList&quot;:[{&quot;personId&quot;:0,&quot;personType&quot;:&quot;01&quot;,&quot;personName&quot;:&quot;${fn1}${sn1}&quot;,&quot;nature&quot;:&quot;1&quot;,&quot;custNumber&quot;:103,&quot;identifyType&quot;:&quot;05&quot;,&quot;identifyNumber&quot;:&quot;162637737&quot;,&quot;birthDate&quot;:&quot;2003-03-04&quot;,&quot;personSex&quot;:&quot;2&quot;,&quot;addressComplete&quot;:null,&quot;mobilePhone&quot;:&quot;18383993030&quot;,&quot;personAge&quot;:16,&quot;email&quot;:&quot;166272@qq.com&quot;,&quot;mainPersRelation&quot;:&quot;00&quot;,&quot;identityValidity&quot;:&quot;&quot;},{&quot;personId&quot;:0,&quot;personType&quot;:&quot;03&quot;,&quot;personName&quot;:&quot;${fn2}${sn2}&quot;,&quot;nature&quot;:&quot;1&quot;,&quot;custNumber&quot;:103,&quot;identifyType&quot;:&quot;05&quot;,&quot;identifyNumber&quot;:&quot;162637737&quot;,&quot;birthDate&quot;:&quot;2003-03-04&quot;,&quot;personSex&quot;:&quot;2&quot;,&quot;addressComplete&quot;:null,&quot;mobilePhone&quot;:&quot;18383993030&quot;,&quot;personAge&quot;:16,&quot;email&quot;:&quot;166272@qq.com&quot;,&quot;mainPersRelation&quot;:&quot;00&quot;,&quot;identityValidity&quot;:&quot;&quot;},{&quot;personId&quot;:0,&quot;personType&quot;:&quot;02&quot;,&quot;personName&quot;:&quot;${fn3}${sn3}&quot;,&quot;nature&quot;:&quot;1&quot;,&quot;custNumber&quot;:103,&quot;identifyType&quot;:&quot;05&quot;,&quot;identifyNumber&quot;:&quot;162637737&quot;,&quot;birthDate&quot;:&quot;2003-03-04&quot;,&quot;personSex&quot;:&quot;2&quot;,&quot;addressComplete&quot;:null,&quot;mobilePhone&quot;:&quot;18383993030&quot;,&quot;personAge&quot;:16,&quot;email&quot;:&quot;166272@qq.com&quot;,&quot;mainPersRelation&quot;:&quot;00&quot;,&quot;identityValidity&quot;:&quot;&quot;}],&quot;attachList&quot;:[],&quot;policyNewMark&quot;:&quot;1&quot;,&quot;endorsementType&quot;:&quot;00&quot;,&quot;tokenId&quot;:&quot;${__P(p_tokenId)}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${url}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+            <stringProp name="HTTPSampler.path">/ins/web/auto/input</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="TestPlan.comments">保单录入</stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="华安财险" enabled="true">
+          <stringProp name="IfController.condition">&quot;${__P(companyName)}&quot;==&quot;华安财险&quot;</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+        </IfController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/ins/web/auto/input" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;pathval&quot;:&quot;/proposal_form&quot;,&quot;taskId&quot;:null,&quot;policyId&quot;:&quot;&quot;,&quot;policyBatchId&quot;:&quot;&quot;,&quot;payTime&quot;:&quot;2019-12-09 09:52:38&quot;,&quot;insuredTime&quot;:&quot;2019-12-09 09:52:36&quot;,&quot;companyName&quot;:&quot;华安财险&quot;,&quot;companyId&quot;:&quot;1002&quot;,&quot;channelId&quot;:&quot;1002001&quot;,&quot;channelName&quot;:&quot;华安财险湖南分公司&quot;,&quot;recordType&quot;:&quot;3&quot;,&quot;thisRenewal&quot;:&quot;0&quot;,&quot;insuredType&quot;:&quot;1&quot;,&quot;salesmanId&quot;:${__P(userId)},&quot;departCode&quot;:&quot;${__P(departCode)}&quot;,&quot;phoneNumber&quot;:&quot;15914116527&quot;,&quot;idNumber&quot;:&quot;430302198605263053&quot;,&quot;newCarMark&quot;:0,&quot;ownershipNature&quot;:&quot;1&quot;,&quot;operationNature&quot;:&quot;0&quot;,&quot;usingNature&quot;:&quot;J001&quot;,&quot;carOwner&quot;:&quot;${fn}${sn}&quot;,&quot;ownerIdentifyType&quot;:&quot;05&quot;,&quot;ownerIdentify&quot;:&quot;162637737&quot;,&quot;plateNumber&quot;:&quot;湘A${vi_no}&quot;,&quot;frameNumber&quot;:&quot;88888888899999999&quot;,&quot;engineNumber&quot;:&quot;9999999999888888&quot;,&quot;modelName&quot;:&quot;FGHD&quot;,&quot;regDate&quot;:&quot;2019-12-08&quot;,&quot;useYears&quot;:0,&quot;certDate&quot;:&quot;2019-12-08&quot;,&quot;transferMark&quot;:&quot;0&quot;,&quot;transferDate&quot;:&quot;&quot;,&quot;seatCount&quot;:&quot;5&quot;,&quot;carTonnage&quot;:1,&quot;wholeWeight&quot;:&quot;1000&quot;,&quot;exhaustScale&quot;:&quot;1600.00&quot;,&quot;fuelType&quot;:&quot;1&quot;,&quot;purchasePrice&quot;:&quot;&quot;,&quot;actualPrice&quot;:1000000,&quot;loanCarMark&quot;:0,&quot;totalRecordScore&quot;:&quot;&quot;,&quot;provinceNumber&quot;:&quot;430000&quot;,&quot;provinceName&quot;:&quot;湖南省&quot;,&quot;cityNumber&quot;:&quot;430100&quot;,&quot;cityName&quot;:&quot;长沙市&quot;,&quot;specialAgreement&quot;:&quot;&quot;,&quot;note&quot;:&quot;&quot;,&quot;province&quot;:&quot;430000&quot;,&quot;city&quot;:&quot;430100&quot;,&quot;compulsoryIns&quot;:{&quot;policyId&quot;:0,&quot;insBegin&quot;:&quot;2019-12-09 09:53:33&quot;,&quot;insEnd&quot;:&quot;2020-12-08 23:59:59&quot;,&quot;policyNumber&quot;:&quot;${__RandomString(32,0123456789,)}&quot;,&quot;insuredPremium&quot;:20000,&quot;attachPremium&quot;:0,&quot;carTaxType&quot;:&quot;3&quot;,&quot;insAmount&quot;:0,&quot;documentNumber&quot;:&quot;&quot;,&quot;invoiceNumber&quot;:&quot;&quot;,&quot;ciMarkNumber&quot;:&quot;&quot;,&quot;recordScore&quot;:0,&quot;lastClaimCount&quot;:-3,&quot;discount&quot;:0.7,&quot;tax&quot;:113.21,&quot;standardPremium&quot;:2857.14,&quot;netPremium&quot;:1886.79,&quot;taxRate&quot;:0.06,&quot;commRate&quot;:&quot;&quot;,&quot;isIncludeTax&quot;:&quot;&quot;,&quot;kindList&quot;:[{&quot;kindCode&quot;:&quot;BZ&quot;,&quot;kindName&quot;:&quot;交强险&quot;,&quot;quantity&quot;:0,&quot;unitAmount&quot;:0,&quot;amount&quot;:0,&quot;premium&quot;:&quot;2000.00&quot;,&quot;discount&quot;:0.7,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;0&quot;,&quot;businessMark&quot;:&quot;0&quot;,&quot;orderNo&quot;:0,&quot;valueType&quot;:&quot;&quot;,&quot;buyAddl&quot;:&quot;&quot;},{&quot;kindCode&quot;:&quot;BT&quot;,&quot;kindName&quot;:&quot;车船税&quot;,&quot;quantity&quot;:0,&quot;unitAmount&quot;:0,&quot;amount&quot;:0,&quot;premium&quot;:&quot;2000.00&quot;,&quot;discount&quot;:0.7,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;0&quot;,&quot;businessMark&quot;:&quot;0&quot;,&quot;orderNo&quot;:0,&quot;valueType&quot;:&quot;&quot;,&quot;buyAddl&quot;:&quot;&quot;}]},&quot;businessIns&quot;:{&quot;policyId&quot;:0,&quot;insBegin&quot;:&quot;2019-12-09 09:53:36&quot;,&quot;insEnd&quot;:&quot;2020-12-08 23:59:59&quot;,&quot;policyNumber&quot;:&quot;${__RandomString(32,0123456789,)}&quot;,&quot;insuredPremium&quot;:80000,&quot;insAmount&quot;:0,&quot;documentNumber&quot;:&quot;&quot;,&quot;invoiceNumber&quot;:&quot;&quot;,&quot;ciMarkNumber&quot;:&quot;&quot;,&quot;recordScore&quot;:0,&quot;lastClaimCount&quot;:-3,&quot;discount&quot;:0.3825,&quot;tax&quot;:452.83,&quot;standardPremium&quot;:20915.03,&quot;netPremium&quot;:7547.17,&quot;taxRate&quot;:0.06,&quot;commRate&quot;:&quot;&quot;,&quot;isIncludeTax&quot;:&quot;&quot;,&quot;kindList&quot;:[{&quot;kindCode&quot;:&quot;B&quot;,&quot;kindName&quot;:&quot;机动车第三者责任保险&quot;,&quot;unitAmount&quot;:0,&quot;premium&quot;:30000,&quot;discount&quot;:0.3825,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;2&quot;,&quot;businessMark&quot;:&quot;1&quot;,&quot;orderNo&quot;:0,&quot;buyAddl&quot;:&quot;0&quot;,&quot;quantity&quot;:0,&quot;amount&quot;:1000000},{&quot;kindCode&quot;:&quot;A&quot;,&quot;kindName&quot;:&quot;机动车损失保险&quot;,&quot;unitAmount&quot;:0,&quot;premium&quot;:50000,&quot;discount&quot;:0.3825,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;2&quot;,&quot;businessMark&quot;:&quot;1&quot;,&quot;orderNo&quot;:0,&quot;buyAddl&quot;:&quot;0&quot;,&quot;quantity&quot;:0,&quot;amount&quot;:1000000}]},&quot;personList&quot;:[{&quot;personId&quot;:0,&quot;personType&quot;:&quot;01&quot;,&quot;personName&quot;:&quot;${fn1}${sn1}&quot;,&quot;nature&quot;:&quot;1&quot;,&quot;custNumber&quot;:103,&quot;identifyType&quot;:&quot;05&quot;,&quot;identifyNumber&quot;:&quot;162637737&quot;,&quot;birthDate&quot;:&quot;2003-03-04&quot;,&quot;personSex&quot;:&quot;2&quot;,&quot;addressComplete&quot;:null,&quot;mobilePhone&quot;:&quot;18383993030&quot;,&quot;personAge&quot;:16,&quot;email&quot;:&quot;166272@qq.com&quot;,&quot;mainPersRelation&quot;:&quot;00&quot;,&quot;identityValidity&quot;:&quot;&quot;},{&quot;personId&quot;:0,&quot;personType&quot;:&quot;03&quot;,&quot;personName&quot;:&quot;${fn2}${sn2}&quot;,&quot;nature&quot;:&quot;1&quot;,&quot;custNumber&quot;:103,&quot;identifyType&quot;:&quot;05&quot;,&quot;identifyNumber&quot;:&quot;162637737&quot;,&quot;birthDate&quot;:&quot;2003-03-04&quot;,&quot;personSex&quot;:&quot;2&quot;,&quot;addressComplete&quot;:null,&quot;mobilePhone&quot;:&quot;18383993030&quot;,&quot;personAge&quot;:16,&quot;email&quot;:&quot;166272@qq.com&quot;,&quot;mainPersRelation&quot;:&quot;00&quot;,&quot;identityValidity&quot;:&quot;&quot;},{&quot;personId&quot;:0,&quot;personType&quot;:&quot;02&quot;,&quot;personName&quot;:&quot;${fn3}${sn3}&quot;,&quot;nature&quot;:&quot;1&quot;,&quot;custNumber&quot;:103,&quot;identifyType&quot;:&quot;05&quot;,&quot;identifyNumber&quot;:&quot;162637737&quot;,&quot;birthDate&quot;:&quot;2003-03-04&quot;,&quot;personSex&quot;:&quot;2&quot;,&quot;addressComplete&quot;:null,&quot;mobilePhone&quot;:&quot;18383993030&quot;,&quot;personAge&quot;:16,&quot;email&quot;:&quot;166272@qq.com&quot;,&quot;mainPersRelation&quot;:&quot;00&quot;,&quot;identityValidity&quot;:&quot;&quot;}],&quot;attachList&quot;:[],&quot;policyNewMark&quot;:&quot;1&quot;,&quot;endorsementType&quot;:&quot;00&quot;,&quot;tokenId&quot;:&quot;${__P(p_tokenId)}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${url}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+            <stringProp name="HTTPSampler.path">/ins/web/auto/input</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="TestPlan.comments">保单录入</stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="平安财险" enabled="true">
+          <stringProp name="IfController.condition">&quot;${__P(companyName)}&quot;==&quot;平安财险&quot;</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+        </IfController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/ins/web/auto/input" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;pathval&quot;:&quot;/proposal_form&quot;,&quot;taskId&quot;:null,&quot;policyId&quot;:&quot;&quot;,&quot;policyBatchId&quot;:&quot;&quot;,&quot;payTime&quot;:&quot;2019-12-31 09:52:38&quot;,&quot;insuredTime&quot;:&quot;2019-12-09 09:52:36&quot;,&quot;companyName&quot;:&quot;平安财险&quot;,&quot;companyId&quot;:&quot;1003&quot;,&quot;channelId&quot;:&quot;1003001&quot;,&quot;channelName&quot;:&quot;平安财险湖南分公司&quot;,&quot;recordType&quot;:&quot;3&quot;,&quot;thisRenewal&quot;:&quot;0&quot;,&quot;insuredType&quot;:&quot;1&quot;,&quot;salesmanId&quot;:${__P(userId)},&quot;departCode&quot;:&quot;${__P(departCode)}&quot;,&quot;phoneNumber&quot;:&quot;15914116527&quot;,&quot;idNumber&quot;:&quot;430302198605263053&quot;,&quot;newCarMark&quot;:0,&quot;ownershipNature&quot;:&quot;1&quot;,&quot;operationNature&quot;:&quot;0&quot;,&quot;usingNature&quot;:&quot;J001&quot;,&quot;carOwner&quot;:&quot;${fn}${sn}&quot;,&quot;ownerIdentifyType&quot;:&quot;05&quot;,&quot;ownerIdentify&quot;:&quot;162637737&quot;,&quot;plateNumber&quot;:&quot;湘A${vi_no}&quot;,&quot;frameNumber&quot;:&quot;88888888899999999&quot;,&quot;engineNumber&quot;:&quot;9999999999888888&quot;,&quot;modelName&quot;:&quot;FGHD&quot;,&quot;regDate&quot;:&quot;2019-12-08&quot;,&quot;useYears&quot;:0,&quot;certDate&quot;:&quot;2019-12-08&quot;,&quot;transferMark&quot;:&quot;0&quot;,&quot;transferDate&quot;:&quot;&quot;,&quot;seatCount&quot;:&quot;5&quot;,&quot;carTonnage&quot;:1,&quot;wholeWeight&quot;:&quot;1000&quot;,&quot;exhaustScale&quot;:&quot;1600.00&quot;,&quot;fuelType&quot;:&quot;1&quot;,&quot;purchasePrice&quot;:&quot;&quot;,&quot;actualPrice&quot;:1000000,&quot;loanCarMark&quot;:0,&quot;totalRecordScore&quot;:&quot;&quot;,&quot;provinceNumber&quot;:&quot;430000&quot;,&quot;provinceName&quot;:&quot;湖南省&quot;,&quot;cityNumber&quot;:&quot;430100&quot;,&quot;cityName&quot;:&quot;长沙市&quot;,&quot;specialAgreement&quot;:&quot;&quot;,&quot;note&quot;:&quot;&quot;,&quot;province&quot;:&quot;430000&quot;,&quot;city&quot;:&quot;430100&quot;,&quot;compulsoryIns&quot;:{&quot;policyId&quot;:0,&quot;insBegin&quot;:&quot;2019-12-09 09:53:33&quot;,&quot;insEnd&quot;:&quot;2020-12-08 23:59:59&quot;,&quot;policyNumber&quot;:&quot;${__RandomString(32,0123456789,)}&quot;,&quot;insuredPremium&quot;:20000,&quot;attachPremium&quot;:0,&quot;carTaxType&quot;:&quot;3&quot;,&quot;insAmount&quot;:0,&quot;documentNumber&quot;:&quot;&quot;,&quot;invoiceNumber&quot;:&quot;&quot;,&quot;ciMarkNumber&quot;:&quot;&quot;,&quot;recordScore&quot;:0,&quot;lastClaimCount&quot;:-3,&quot;discount&quot;:0.7,&quot;tax&quot;:113.21,&quot;standardPremium&quot;:2857.14,&quot;netPremium&quot;:1886.79,&quot;taxRate&quot;:0.06,&quot;commRate&quot;:&quot;&quot;,&quot;isIncludeTax&quot;:&quot;&quot;,&quot;kindList&quot;:[{&quot;kindCode&quot;:&quot;BZ&quot;,&quot;kindName&quot;:&quot;交强险&quot;,&quot;quantity&quot;:0,&quot;unitAmount&quot;:0,&quot;amount&quot;:0,&quot;premium&quot;:&quot;2000.00&quot;,&quot;discount&quot;:0.7,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;0&quot;,&quot;businessMark&quot;:&quot;0&quot;,&quot;orderNo&quot;:0,&quot;valueType&quot;:&quot;&quot;,&quot;buyAddl&quot;:&quot;&quot;},{&quot;kindCode&quot;:&quot;BT&quot;,&quot;kindName&quot;:&quot;车船税&quot;,&quot;quantity&quot;:0,&quot;unitAmount&quot;:0,&quot;amount&quot;:0,&quot;premium&quot;:&quot;2000.00&quot;,&quot;discount&quot;:0.7,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;0&quot;,&quot;businessMark&quot;:&quot;0&quot;,&quot;orderNo&quot;:0,&quot;valueType&quot;:&quot;&quot;,&quot;buyAddl&quot;:&quot;&quot;}]},&quot;businessIns&quot;:{&quot;policyId&quot;:0,&quot;insBegin&quot;:&quot;2019-12-09 09:53:36&quot;,&quot;insEnd&quot;:&quot;2020-12-08 23:59:59&quot;,&quot;policyNumber&quot;:&quot;${__RandomString(32,0123456789,)}&quot;,&quot;insuredPremium&quot;:80000,&quot;insAmount&quot;:0,&quot;documentNumber&quot;:&quot;&quot;,&quot;invoiceNumber&quot;:&quot;&quot;,&quot;ciMarkNumber&quot;:&quot;&quot;,&quot;recordScore&quot;:0,&quot;lastClaimCount&quot;:-3,&quot;discount&quot;:0.3825,&quot;tax&quot;:452.83,&quot;standardPremium&quot;:20915.03,&quot;netPremium&quot;:7547.17,&quot;taxRate&quot;:0.06,&quot;commRate&quot;:&quot;&quot;,&quot;isIncludeTax&quot;:&quot;&quot;,&quot;kindList&quot;:[{&quot;kindCode&quot;:&quot;B&quot;,&quot;kindName&quot;:&quot;机动车第三者责任保险&quot;,&quot;unitAmount&quot;:0,&quot;premium&quot;:30000,&quot;discount&quot;:0.3825,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;2&quot;,&quot;businessMark&quot;:&quot;1&quot;,&quot;orderNo&quot;:0,&quot;buyAddl&quot;:&quot;0&quot;,&quot;quantity&quot;:0,&quot;amount&quot;:1000000},{&quot;kindCode&quot;:&quot;A&quot;,&quot;kindName&quot;:&quot;机动车损失保险&quot;,&quot;unitAmount&quot;:0,&quot;premium&quot;:50000,&quot;discount&quot;:0.3825,&quot;rate&quot;:0,&quot;addlMark&quot;:&quot;2&quot;,&quot;businessMark&quot;:&quot;1&quot;,&quot;orderNo&quot;:0,&quot;buyAddl&quot;:&quot;0&quot;,&quot;quantity&quot;:0,&quot;amount&quot;:1000000}]},&quot;personList&quot;:[{&quot;personId&quot;:0,&quot;personType&quot;:&quot;01&quot;,&quot;personName&quot;:&quot;${fn1}${sn1}&quot;,&quot;nature&quot;:&quot;1&quot;,&quot;custNumber&quot;:103,&quot;identifyType&quot;:&quot;05&quot;,&quot;identifyNumber&quot;:&quot;162637737&quot;,&quot;birthDate&quot;:&quot;2003-03-04&quot;,&quot;personSex&quot;:&quot;2&quot;,&quot;addressComplete&quot;:null,&quot;mobilePhone&quot;:&quot;18383993030&quot;,&quot;personAge&quot;:16,&quot;email&quot;:&quot;166272@qq.com&quot;,&quot;mainPersRelation&quot;:&quot;00&quot;,&quot;identityValidity&quot;:&quot;&quot;},{&quot;personId&quot;:0,&quot;personType&quot;:&quot;03&quot;,&quot;personName&quot;:&quot;${fn2}${sn2}&quot;,&quot;nature&quot;:&quot;1&quot;,&quot;custNumber&quot;:103,&quot;identifyType&quot;:&quot;05&quot;,&quot;identifyNumber&quot;:&quot;162637737&quot;,&quot;birthDate&quot;:&quot;2003-03-04&quot;,&quot;personSex&quot;:&quot;2&quot;,&quot;addressComplete&quot;:null,&quot;mobilePhone&quot;:&quot;18383993030&quot;,&quot;personAge&quot;:16,&quot;email&quot;:&quot;166272@qq.com&quot;,&quot;mainPersRelation&quot;:&quot;00&quot;,&quot;identityValidity&quot;:&quot;&quot;},{&quot;personId&quot;:0,&quot;personType&quot;:&quot;02&quot;,&quot;personName&quot;:&quot;${fn3}${sn3}&quot;,&quot;nature&quot;:&quot;1&quot;,&quot;custNumber&quot;:103,&quot;identifyType&quot;:&quot;05&quot;,&quot;identifyNumber&quot;:&quot;162637737&quot;,&quot;birthDate&quot;:&quot;2003-03-04&quot;,&quot;personSex&quot;:&quot;2&quot;,&quot;addressComplete&quot;:null,&quot;mobilePhone&quot;:&quot;18383993030&quot;,&quot;personAge&quot;:16,&quot;email&quot;:&quot;166272@qq.com&quot;,&quot;mainPersRelation&quot;:&quot;00&quot;,&quot;identityValidity&quot;:&quot;&quot;}],&quot;attachList&quot;:[],&quot;policyNewMark&quot;:&quot;1&quot;,&quot;endorsementType&quot;:&quot;00&quot;,&quot;tokenId&quot;:&quot;${__P(p_tokenId)}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${url}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+            <stringProp name="HTTPSampler.path">/ins/web/auto/input</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="TestPlan.comments">保单录入</stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

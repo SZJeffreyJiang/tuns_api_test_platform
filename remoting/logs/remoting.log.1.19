@@ -1,0 +1,193 @@
+十二月 26, 2019 4:26:56 下午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: test_slave
+十二月 26, 2019 4:26:56 下午 hudson.remoting.jnlp.Main$CuiListener <init>
+信息: Jenkins agent is running in headless mode.
+十二月 26, 2019 4:26:56 下午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 3.21.1
+十二月 26, 2019 4:26:56 下午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\TS_apiTest\remoting as a remoting work directory
+十二月 26, 2019 4:26:56 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十二月 26, 2019 4:26:56 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十二月 26, 2019 4:26:56 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 26, 2019 4:26:56 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十二月 26, 2019 4:26:56 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 26, 2019 4:26:56 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十二月 26, 2019 4:27:16 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 26, 2019 4:27:17 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+十二月 26, 2019 8:14:43 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+十二月 26, 2019 8:14:44 下午 hudson.Launcher$RemoteLaunchCallable$1 join
+信息: Failed to synchronize IO streams on the channel hudson.remoting.Channel@7eda973b:JNLP4-connect connection to 192.168.2.20/192.168.2.20:43164
+hudson.remoting.ChannelClosedException: Channel "unknown": Remote call on JNLP4-connect connection to 192.168.2.20/192.168.2.20:43164 failed. The channel is closing down or has closed down
+	at hudson.remoting.Channel.call(Channel.java:948)
+	at hudson.remoting.Channel.syncIO(Channel.java:1683)
+	at hudson.Launcher$RemoteLaunchCallable$1.join(Launcher.java:1315)
+	at sun.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at hudson.remoting.RemoteInvocationHandler$RPCRequest.perform(RemoteInvocationHandler.java:929)
+	at hudson.remoting.RemoteInvocationHandler$RPCRequest.call(RemoteInvocationHandler.java:903)
+	at hudson.remoting.RemoteInvocationHandler$RPCRequest.call(RemoteInvocationHandler.java:855)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:212)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at hudson.remoting.Engine$1$$Lambda$3/954353713.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.ClosedChannelException
+	at org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)
+	at org.jenkinsci.remoting.protocol.impl.BIONetworkLayer.access$1800(BIONetworkLayer.java:48)
+	at org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader.run(BIONetworkLayer.java:264)
+	... 5 more
+
+十二月 26, 2019 8:14:44 下午 hudson.remoting.UserRequest perform
+警告: LinkageError while performing UserRequest:UserRPCRequest:hudson.Launcher$RemoteProcess.join[](45)
+java.lang.NoClassDefFoundError: hudson/util/ProcessTree$ListAll
+	at hudson.util.ProcessTree.getKillers(ProcessTree.java:170)
+	at hudson.util.ProcessTree$OSProcess.killByKiller(ProcessTree.java:231)
+	at hudson.util.ProcessTree$WindowsOSProcess.killRecursively(ProcessTree.java:502)
+	at hudson.util.ProcessTree.killAll(ProcessTree.java:157)
+	at hudson.Proc$LocalProc.destroy(Proc.java:384)
+	at hudson.Proc$LocalProc.join(Proc.java:357)
+	at hudson.Launcher$RemoteLaunchCallable$1.join(Launcher.java:1304)
+	at sun.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at hudson.remoting.RemoteInvocationHandler$RPCRequest.perform(RemoteInvocationHandler.java:929)
+	at hudson.remoting.RemoteInvocationHandler$RPCRequest.call(RemoteInvocationHandler.java:903)
+	at hudson.remoting.RemoteInvocationHandler$RPCRequest.call(RemoteInvocationHandler.java:855)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:212)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at hudson.remoting.Engine$1$$Lambda$3/954353713.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: hudson.util.ProcessTree$ListAll
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at hudson.remoting.RemoteClassLoader.findClass(RemoteClassLoader.java:171)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 23 more
+
+十二月 26, 2019 8:14:44 下午 hudson.remoting.Request$2 run
+信息: Failed to send back a reply to the request hudson.remoting.Request$2@4a7df304: hudson.remoting.ChannelClosedException: Channel "hudson.remoting.Channel@7eda973b:JNLP4-connect connection to 192.168.2.20/192.168.2.20:43164": channel is already closed
+十二月 27, 2019 9:14:47 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十二月 27, 2019 9:14:47 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十二月 27, 2019 9:14:48 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 27, 2019 9:14:48 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十二月 27, 2019 9:14:48 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 27, 2019 9:14:48 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十二月 27, 2019 9:15:09 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 27, 2019 9:15:09 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+十二月 27, 2019 9:16:16 上午 org.jvnet.winp.Native loadByUrl
+警告: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library D:\TS_apiTest\remoting\jarCache\FF\winp.x64.9227625827D942DEBC0C1F46F812AE6A.dll already loaded in another classloader
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at org.jvnet.winp.Native.loadDll(Native.java:200)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:130)
+	at org.jvnet.winp.Native.load(Native.java:99)
+	at org.jvnet.winp.Native.<clinit>(Native.java:70)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:226)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:625)
+	at hudson.util.ProcessTree.get(ProcessTree.java:411)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1090)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1081)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:212)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at hudson.remoting.Engine$1$$Lambda$3/954353713.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+十二月 27, 2019 9:26:15 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+十二月 27, 2019 9:26:25 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十二月 27, 2019 9:26:25 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十二月 27, 2019 9:26:25 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 27, 2019 9:26:25 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十二月 27, 2019 9:26:25 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 27, 2019 9:26:25 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十二月 27, 2019 9:26:44 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Protocol JNLP4-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Connection closed before acknowledgement sent
+	at org.jenkinsci.remoting.util.SettableFuture.get(SettableFuture.java:223)
+	at hudson.remoting.Engine.innerRun(Engine.java:609)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Connection closed before acknowledgement sent
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer.onRecvClosed(AckFilterLayer.java:280)
+	at org.jenkinsci.remoting.protocol.FilterLayer.abort(FilterLayer.java:164)
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer.access$000(AckFilterLayer.java:43)
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer$1.run(AckFilterLayer.java:176)
+	at org.jenkinsci.remoting.protocol.IOHub$DelayedRunnable.run(IOHub.java:964)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at hudson.remoting.Engine$1$$Lambda$3/954353713.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+十二月 27, 2019 9:26:44 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 27, 2019 9:26:45 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP4-plaintext not supported, skipping
+十二月 27, 2019 9:26:45 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP3-connect not supported, skipping
+十二月 27, 2019 9:26:45 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP2-connect not supported, skipping
+十二月 27, 2019 9:26:45 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP-connect not supported, skipping
+十二月 27, 2019 9:26:45 上午 hudson.remoting.jnlp.Main$CuiListener error
+严重: The server rejected the connection: None of the protocols were accepted
+java.lang.Exception: The server rejected the connection: None of the protocols were accepted
+	at hudson.remoting.Engine.onConnectionRejected(Engine.java:670)
+	at hudson.remoting.Engine.innerRun(Engine.java:634)
+	at hudson.remoting.Engine.run(Engine.java:469)
+

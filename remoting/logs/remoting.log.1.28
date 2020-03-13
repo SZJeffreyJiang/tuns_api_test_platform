@@ -1,0 +1,89 @@
+一月 19, 2020 5:11:42 下午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: test_save_76
+一月 19, 2020 5:11:42 下午 hudson.remoting.jnlp.Main$CuiListener <init>
+信息: Jenkins agent is running in headless mode.
+一月 19, 2020 5:11:42 下午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 3.21.1
+一月 19, 2020 5:11:42 下午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\TS_apiTest\remoting as a remoting work directory
+一月 19, 2020 5:11:42 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+一月 19, 2020 5:11:42 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+一月 19, 2020 5:11:42 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+一月 19, 2020 5:11:42 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+一月 19, 2020 5:11:42 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+一月 19, 2020 5:11:42 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+一月 19, 2020 5:12:03 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+一月 19, 2020 5:12:04 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+一月 19, 2020 5:12:39 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+一月 19, 2020 5:12:49 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+一月 19, 2020 5:12:49 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+一月 19, 2020 5:12:49 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+一月 19, 2020 5:12:49 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+一月 19, 2020 5:12:49 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+一月 19, 2020 5:12:49 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+一月 19, 2020 5:13:08 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+一月 19, 2020 5:13:08 下午 org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer onRecv
+信息: [JNLP4-connect connection to 192.168.2.20/192.168.2.20:43164] Local headers refused by remote: Unknown client name: test_save_76
+一月 19, 2020 5:13:08 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Protocol JNLP4-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Unknown client name: test_save_76
+	at org.jenkinsci.remoting.util.SettableFuture.get(SettableFuture.java:223)
+	at hudson.remoting.Engine.innerRun(Engine.java:609)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Unknown client name: test_save_76
+	at org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.newAbortCause(ConnectionHeadersFilterLayer.java:378)
+	at org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.onRecvClosed(ConnectionHeadersFilterLayer.java:433)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:832)
+	at org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:287)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:172)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:832)
+	at org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)
+	at org.jenkinsci.remoting.protocol.impl.BIONetworkLayer.access$1500(BIONetworkLayer.java:48)
+	at org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader.run(BIONetworkLayer.java:247)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at hudson.remoting.Engine$1$$Lambda$3/674112741.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: java.nio.channels.ClosedChannelException
+		... 8 more
+
+一月 19, 2020 5:13:08 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+一月 19, 2020 5:13:08 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP4-plaintext not supported, skipping
+一月 19, 2020 5:13:08 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP3-connect not supported, skipping
+一月 19, 2020 5:13:08 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP2-connect not supported, skipping
+一月 19, 2020 5:13:08 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Server reports protocol JNLP-connect not supported, skipping
+一月 19, 2020 5:13:08 下午 hudson.remoting.jnlp.Main$CuiListener error
+严重: The server rejected the connection: None of the protocols were accepted
+java.lang.Exception: The server rejected the connection: None of the protocols were accepted
+	at hudson.remoting.Engine.onConnectionRejected(Engine.java:670)
+	at hudson.remoting.Engine.innerRun(Engine.java:634)
+	at hudson.remoting.Engine.run(Engine.java:469)
+

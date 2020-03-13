@@ -1,0 +1,32 @@
+一月 07, 2020 3:15:04 下午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: test_save_76
+一月 07, 2020 3:15:04 下午 hudson.remoting.jnlp.Main$CuiListener <init>
+信息: Jenkins agent is running in headless mode.
+一月 07, 2020 3:15:04 下午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 3.21.1
+一月 07, 2020 3:15:04 下午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\TS_apiTest\remoting as a remoting work directory
+一月 07, 2020 3:15:25 下午 hudson.remoting.jnlp.Main$CuiListener error
+严重: Unable to establish loopback connection
+java.io.IOException: Unable to establish loopback connection
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source)
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.nio.ch.PipeImpl.<init>(Unknown Source)
+	at sun.nio.ch.SelectorProviderImpl.openPipe(Unknown Source)
+	at java.nio.channels.Pipe.open(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.<init>(Unknown Source)
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(Unknown Source)
+	at java.nio.channels.Selector.open(Unknown Source)
+	at org.jenkinsci.remoting.protocol.IOHub.<init>(IOHub.java:139)
+	at org.jenkinsci.remoting.protocol.IOHub.create(IOHub.java:153)
+	at hudson.remoting.Engine.run(Engine.java:425)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(Unknown Source)
+	... 12 more
+

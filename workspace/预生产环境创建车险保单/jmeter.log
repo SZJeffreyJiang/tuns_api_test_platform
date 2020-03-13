@@ -1,0 +1,68 @@
+2020-03-04 10:28:07,820 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-03-04 10:28:07,856 INFO o.a.j.JMeter: Loading user properties from: D:\apache-jmeter-4.0\bin\user.properties
+2020-03-04 10:28:07,857 INFO o.a.j.JMeter: Loading system properties from: D:\apache-jmeter-4.0\bin\system.properties
+2020-03-04 10:28:07,857 INFO o.a.j.JMeter: Setting JMeter property: userId=100003
+2020-03-04 10:28:07,857 INFO o.a.j.JMeter: Setting JMeter property: companyName=天安财险
+2020-03-04 10:28:07,857 INFO o.a.j.JMeter: Setting JMeter property: departCode=9900805
+2020-03-04 10:28:07,862 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2020-03-04 10:28:07,863 INFO o.a.j.JMeter: Version 4.0 r1823414
+2020-03-04 10:28:07,863 INFO o.a.j.JMeter: java.version=1.8.0_31
+2020-03-04 10:28:07,863 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-03-04 10:28:07,863 INFO o.a.j.JMeter: os.name=Windows 7
+2020-03-04 10:28:07,863 INFO o.a.j.JMeter: os.arch=amd64
+2020-03-04 10:28:07,863 INFO o.a.j.JMeter: os.version=6.1
+2020-03-04 10:28:07,863 INFO o.a.j.JMeter: file.encoding=GBK
+2020-03-04 10:28:07,863 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-03-04 10:28:07,863 INFO o.a.j.JMeter: Available Processors =1
+2020-03-04 10:28:07,868 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-03-04 10:28:07,869 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-03-04 10:28:07,869 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-4.0
+2020-03-04 10:28:07,869 INFO o.a.j.JMeter: user.dir  =D:\TS_apiTest\workspace\预生产环境创建车险保单
+2020-03-04 10:28:07,869 INFO o.a.j.JMeter: PWD       =D:\TS_apiTest\workspace\预生产环境创建车险保单
+2020-03-04 10:28:07,871 INFO o.a.j.JMeter: IP: 192.168.2.75 Name: 3SD6GFUZV5AQKZ3 FullName: 3SD6GFUZV5AQKZ3
+2020-03-04 10:28:07,873 INFO o.a.j.s.FileServer: Default base='D:\TS_apiTest\workspace\预生产环境创建车险保单'
+2020-03-04 10:28:07,880 INFO o.a.j.s.FileServer: Set new base='D:\TS_apiTest\tool'
+2020-03-04 10:28:08,089 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-03-04 10:28:08,105 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-03-04 10:28:08,109 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2020-03-04 10:28:08,116 INFO o.a.j.s.SaveService: Loading file: D:\TS_apiTest\tool\rep_web_cer_cxbd.jmx
+2020-03-04 10:28:08,258 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-04 10:28:08,259 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-04 10:28:08,259 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-04 10:28:08,259 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-04 10:28:08,259 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-03-04 10:28:08,261 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-03-04 10:28:09,120 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-03-04 10:28:09,129 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-04 10:28:09,130 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-04 10:28:09,130 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-04 10:28:09,137 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-03-04 10:28:09,137 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-03-04 10:28:09,415 INFO o.a.j.t.TestPlan: added D:\apache-jmeter-4.0\lib\postgresql-42.2.8.jar to classpath
+2020-03-04 10:28:09,464 INFO o.a.j.JMeter: Running test (1583288889464)
+2020-03-04 10:28:09,538 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 首页
+2020-03-04 10:28:09,538 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 首页.
+2020-03-04 10:28:09,539 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-04 10:28:09,539 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2020-03-04 10:28:09,557 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-04 10:28:09,557 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: 首页 to finish before starting next group
+2020-03-04 10:28:09,598 INFO o.a.j.t.JMeterThread: Thread started: 首页 1-1
+2020-03-04 10:28:09,624 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 3SD6GFUZV5AQKZ3
+2020-03-04 10:28:09,630 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-03-04 10:28:09,637 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-03-04 10:28:09,637 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to utf-8
+2020-03-04 10:28:09,638 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-03-04 10:28:09,638 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-03-04 10:28:10,398 INFO o.a.j.t.JMeterThread: Thread is done: 首页 1-1
+2020-03-04 10:28:10,398 INFO o.a.j.t.JMeterThread: Thread finished: 首页 1-1
+2020-03-04 10:28:10,399 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 车险保单录入
+2020-03-04 10:28:10,399 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 车险保单录入.
+2020-03-04 10:28:10,399 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-04 10:28:10,400 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2020-03-04 10:28:10,401 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2020-03-04 10:28:10,401 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-04 10:28:10,403 INFO o.a.j.t.JMeterThread: Thread started: 车险保单录入 2-1
+2020-03-04 10:28:11,056 INFO o.a.j.t.JMeterThread: Thread is done: 车险保单录入 2-1
+2020-03-04 10:28:11,057 INFO o.a.j.t.JMeterThread: Thread finished: 车险保单录入 2-1
+2020-03-04 10:28:11,059 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-04 10:28:11,059 INFO o.a.j.r.Summariser: summary =      2 in 00:00:02 =    1.3/s Avg:   379 Min:   377 Max:   381 Err:     0 (0.00%)

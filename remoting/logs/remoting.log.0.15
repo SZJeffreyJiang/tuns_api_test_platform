@@ -1,0 +1,75 @@
+十二月 18, 2019 9:30:12 上午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: test_slave
+十二月 18, 2019 9:30:12 上午 hudson.remoting.jnlp.Main$CuiListener <init>
+信息: Jenkins agent is running in headless mode.
+十二月 18, 2019 9:30:12 上午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 3.21.1
+十二月 18, 2019 9:30:12 上午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\TS_apiTest\remoting as a remoting work directory
+十二月 18, 2019 9:30:12 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十二月 18, 2019 9:30:12 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十二月 18, 2019 9:30:12 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 18, 2019 9:30:12 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十二月 18, 2019 9:30:12 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 18, 2019 9:30:12 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十二月 18, 2019 9:30:33 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 18, 2019 9:30:34 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+十二月 18, 2019 1:41:04 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+十二月 18, 2019 1:41:15 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十二月 18, 2019 1:41:15 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十二月 18, 2019 1:41:15 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    43164
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 18, 2019 1:41:15 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十二月 18, 2019 1:41:15 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:43164
+十二月 18, 2019 1:41:15 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十二月 18, 2019 1:41:35 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十二月 18, 2019 1:41:35 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+十二月 18, 2019 4:02:23 下午 org.jvnet.winp.Native loadByUrl
+警告: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library D:\TS_apiTest\remoting\jarCache\FF\winp.x64.9227625827D942DEBC0C1F46F812AE6A.dll already loaded in another classloader
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at org.jvnet.winp.Native.loadDll(Native.java:200)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:130)
+	at org.jvnet.winp.Native.load(Native.java:99)
+	at org.jvnet.winp.Native.<clinit>(Native.java:70)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:226)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:625)
+	at hudson.util.ProcessTree.get(ProcessTree.java:411)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1090)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1081)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:212)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at hudson.remoting.Engine$1$$Lambda$3/1683061165.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

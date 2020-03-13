@@ -1,0 +1,66 @@
+2020-03-13 16:58:28,323 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-03-13 16:58:28,359 INFO o.a.j.JMeter: Loading user properties from: D:\apache-jmeter-4.0\bin\user.properties
+2020-03-13 16:58:28,359 INFO o.a.j.JMeter: Loading system properties from: D:\apache-jmeter-4.0\bin\system.properties
+2020-03-13 16:58:28,360 INFO o.a.j.JMeter: Setting JMeter property: JOB_NAME=sit_app_test
+2020-03-13 16:58:28,360 INFO o.a.j.JMeter: Setting JMeter property: BUILD_NUMBER=155
+2020-03-13 16:58:28,360 INFO o.a.j.JMeter: Setting JMeter property: BUILD_URL=http://192.168.2.20:8180/job/sit_app_test/155/
+2020-03-13 16:58:28,360 INFO o.a.j.JMeter: Setting JMeter property: REPORT_URL=http://192.168.2.75:8080/view/API_Test/job/TS_APP/HTML_20Report
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: Version 4.0 r1823414
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: java.version=1.8.0_31
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: os.name=Windows 7
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: os.arch=amd64
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: os.version=6.1
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: file.encoding=GBK
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-03-13 16:58:28,365 INFO o.a.j.JMeter: Available Processors =1
+2020-03-13 16:58:28,371 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-03-13 16:58:28,371 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-03-13 16:58:28,371 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-4.0
+2020-03-13 16:58:28,371 INFO o.a.j.JMeter: user.dir  =D:\TS_apiTest\workspace\sit_app_test
+2020-03-13 16:58:28,371 INFO o.a.j.JMeter: PWD       =D:\TS_apiTest\workspace\sit_app_test
+2020-03-13 16:58:28,372 INFO o.a.j.JMeter: IP: 192.168.2.75 Name: 3SD6GFUZV5AQKZ3 FullName: 3SD6GFUZV5AQKZ3
+2020-03-13 16:58:28,378 INFO o.a.j.s.FileServer: Default base='D:\TS_apiTest\workspace\sit_app_test'
+2020-03-13 16:58:28,383 INFO o.a.j.s.FileServer: Set new base='D:\TS_apiTest\sit_APP\jenkins'
+2020-03-13 16:58:28,596 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-03-13 16:58:28,612 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-03-13 16:58:28,617 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2020-03-13 16:58:28,626 INFO o.a.j.s.SaveService: Loading file: D:\TS_apiTest\sit_APP\jenkins\钉钉机器人.jmx
+2020-03-13 16:58:28,704 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-13 16:58:28,704 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-13 16:58:28,704 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-13 16:58:28,704 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-13 16:58:28,704 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-03-13 16:58:28,704 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-03-13 16:58:28,738 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-03-13 16:58:28,765 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-13 16:58:28,766 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-13 16:58:28,766 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-13 16:58:28,769 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-03-13 16:58:28,769 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-03-13 16:58:29,719 INFO o.a.j.JMeter: Running test (1584089909719)
+2020-03-13 16:58:29,752 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2020-03-13 16:58:29,752 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2020-03-13 16:58:29,753 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-13 16:58:29,753 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2020-03-13 16:58:29,757 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-13 16:58:29,758 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-13 16:58:29,761 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2020-03-13 16:58:29,778 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 3SD6GFUZV5AQKZ3
+2020-03-13 16:58:29,785 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-03-13 16:58:29,791 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-03-13 16:58:29,791 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to utf-8
+2020-03-13 16:58:29,792 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-03-13 16:58:29,792 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-03-13 16:58:30,178 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2020-03-13 16:58:30,191 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-03-13 16:58:30,192 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-03-13 16:58:30,504 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2020-03-13 16:58:30,505 INFO o.a.j.u.SSLManager: KeyStore created OK
+2020-03-13 16:58:30,505 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2020-03-13 16:58:31,120 INFO o.a.j.r.Summariser: summary +      1 in 00:00:01 =    0.7/s Avg:  1305 Min:  1305 Max:  1305 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-03-13 16:58:31,120 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2020-03-13 16:58:31,120 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2020-03-13 16:58:31,145 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-13 16:58:31,145 INFO o.a.j.r.Summariser: summary =      1 in 00:00:01 =    0.7/s Avg:  1305 Min:  1305 Max:  1305 Err:     0 (0.00%)

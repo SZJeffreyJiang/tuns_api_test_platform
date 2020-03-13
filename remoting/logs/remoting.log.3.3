@@ -1,0 +1,219 @@
+十一月 21, 2019 10:02:52 上午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: test_slave
+十一月 21, 2019 10:02:52 上午 hudson.remoting.jnlp.Main$CuiListener <init>
+信息: Jenkins agent is running in headless mode.
+十一月 21, 2019 10:02:52 上午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 3.21.1
+十一月 21, 2019 10:02:52 上午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\TS_apiTest\remoting as a remoting work directory
+十一月 21, 2019 10:02:53 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://192.168.2.20:8180/]
+十一月 21, 2019 10:02:53 上午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+十一月 21, 2019 10:02:53 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 192.168.2.20
+  Agent port:    41178
+  Identity:      fd:2c:d1:9b:e8:49:5f:c0:42:43:24:6a:cf:16:f0:fa
+十一月 21, 2019 10:02:53 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+十一月 21, 2019 10:02:53 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178
+十一月 21, 2019 10:02:53 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+十一月 21, 2019 10:03:14 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Protocol JNLP4-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Connection closed before acknowledgement sent
+	at org.jenkinsci.remoting.util.SettableFuture.get(SettableFuture.java:223)
+	at hudson.remoting.Engine.innerRun(Engine.java:609)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Connection closed before acknowledgement sent
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer.onRecvClosed(AckFilterLayer.java:280)
+	at org.jenkinsci.remoting.protocol.FilterLayer.abort(FilterLayer.java:164)
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer.access$000(AckFilterLayer.java:43)
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer$1.run(AckFilterLayer.java:176)
+	at org.jenkinsci.remoting.protocol.IOHub$DelayedRunnable.run(IOHub.java:964)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at hudson.remoting.Engine$1$$Lambda$3/911095158.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+十一月 21, 2019 10:03:14 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178
+十一月 21, 2019 10:10:46 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:2)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:10:56 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:3)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:11:06 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:4)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:11:16 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:5)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:11:26 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:6)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:11:36 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:7)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:11:46 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:8)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:11:56 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:9)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:12:06 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:10)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:12:16 上午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 192.168.2.20:41178 (retrying:11)
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+十一月 21, 2019 10:12:16 上午 hudson.remoting.jnlp.Main$CuiListener error
+严重: Failed to connect to 192.168.2.20:41178
+java.io.IOException: Failed to connect to 192.168.2.20:41178
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
